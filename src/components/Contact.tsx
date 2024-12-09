@@ -2,7 +2,7 @@ import './styles/Contact.css';
 
 export default function Contact() {
     return (
-        <div className="flex flex-col justify-center items-center h-screen">
+        <div id='contato' className="flex flex-col justify-center items-center h-screen">
             <h1 className="text-5xl font-bold">Contato</h1>
             <form action="https://getform.io/f/akkkrnqa" method="POST" className="form">
                 <label htmlFor="name">Nome</label>

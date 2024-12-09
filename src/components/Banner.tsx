@@ -9,12 +9,12 @@ export default function Banner() {
                     <span className="text-7xl uppercase font-bold bg-gradient-to-r from-cyan-700 to-blue-500">Dev Front-end</span>
                 </div>
                 {/* From Uiverse.io by mrhyddenn  */}
-                <div className="scrolldown" style={{ color: "skyblue" }}>
+                <a href='#sobre' style={{ color: "skyblue" }} className="scrolldown">
                     <div className="chevrons">
                         <div className="chevrondown"></div>
                         <div className="chevrondown"></div>
                     </div>
-                </div>
+                </a>
             </div>
         </div>
     );

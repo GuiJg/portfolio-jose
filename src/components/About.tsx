@@ -2,7 +2,7 @@ import profile from "../assets/profile.png";
 
 export default function About() {
     return (
-        <div className="flex justify-center items-start gap-16 h-screen">
+        <div className="flex justify-center items-start gap-16 h-screen" id="sobre">
             <div className="w-3/12">
                 <img src={profile} alt="" className="w-full h-full" />
             </div>

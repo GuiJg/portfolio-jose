@@ -3,10 +3,7 @@ import { Link } from "react-router-dom";
 
 // Pages
 import Home from "./pages/Home";
-import Banner from "./components/Banner";
-import About from "./components/About";
 import Projects from "./components/Projects";
-import Contact from "./components/Contact";
 
 export default function App() {
 
@@ -24,10 +21,10 @@ export default function App() {
           <h1 className="text-3xl font-bold uppercase">José Guilherme</h1>
         </Link>
         <nav className="flex justify-center align-center gap-8 ">
-          <Link to={'/'} className="flex justify-center items-center text-gray-300 font-normal hover:underline">Inicio</Link>
-          <Link to={'/sobre'} className="flex justify-center items-center text-gray-300 font-normal hover:underline">Sobre</Link>
-          <Link to={'/projetos'} className="flex justify-center items-center text-gray-300 font-normal hover:underline">Projetos</Link>
-          <Link to={'/contato'} className="flex justify-center items-center text-gray-300 font-normal hover:underline">Contato</Link>
+          <a href='#' className="flex justify-center items-center text-gray-300 font-normal hover:underline">Inicio</a>
+          <a href='#sobre' className="flex justify-center items-center text-gray-300 font-normal hover:underline">Sobre</a>
+          <a href='#projetos' className="flex justify-center items-center text-gray-300 font-normal hover:underline">Projetos</a>
+          <a href='#contato' className="flex justify-center items-center text-gray-300 font-normal hover:underline">Contato</a>
           <a
             href="./assets/Currículo - José Guilherme.pdf"
             download="Currículo - José Guilherme.pdf"
@@ -41,14 +38,11 @@ export default function App() {
 
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/banner" element={<Banner />} />
-        <Route path="/sobre" element={<About />} />
         <Route path="/projetos" element={<Projects />} />
-        <Route path="/contato" element={<Contact />} />
       </Routes>
 
       <button
-        className="scroll-top hidden"
+        className="scroll-top"
         onClick={scrollToTop}
       >
         <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><g transform="rotate(-90 12 12) translate(24 0) scale(-1 1)"><g fill="none" stroke="black" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2"><path strokeDasharray="14" strokeDashoffset="14" d="M19 12H5.5"><animate fill="freeze" attributeName="stroke-dashoffset" dur="0.3s" values="14;0" /></path><path strokeDasharray="8" strokeDashoffset="8" d="M5 12L10 17M5 12L10 7"><animate fill="freeze" attributeName="stroke-dashoffset" begin="0.3s" dur="0.2s" values="8;0" /></path></g></g></svg>
