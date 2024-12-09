@@ -1,0 +1,93 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  width: 70%;
+  gap: 10px;
+  margin: 2%;
+  margin-left: 9rem;
+  margin-top: 4rem;
+}
+
+.form label {
+  color: #fff;
+}
+
+.form label::selection {
+  color: #d3051e;
+  background-color: #fff;
+}
+
+.form input,
+.form textarea,
+.form button {
+  width: 90%;
+  background: #fff;
+  transition: 0.3s;
+}
+
+.form input,
+.form textarea {
+  font: inherit;
+  border: 1px solid #ffffff44;
+  background-color: #ffffff30;
+  padding: 1%;
+  color: #fff;
+  transition: all 0.3s;
+}
+
+.form input::placeholder,
+.form textarea::placeholder {
+  font-weight: 300;
+  color: #ffffff98;
+}
+
+.form textarea {
+  min-height: 13rem;
+  resize: vertical;
+}
+
+.form input:hover,
+.form input:focus,
+.form textarea:hover,
+.form textarea:focus {
+  outline: none;
+  filter: brightness(90%);
+  box-shadow: 2px 2px 3px 0px #0000006b;
+}
+
+.form button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20%;
+  margin: 1.2% 0% 1.2% 0%;
+  padding: 1.2%;
+  font-size: 1rem;
+  font-family: "K2D", sans-serif;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 0.3rem;
+  border: 1px solid #ffffff8b;
+  background: transparent;
+  transition: 0.2s;
+}
+
+.form button::selection {
+  color: #3b82f6 ;
+  background-color: #fff;
+}
+
+.form button:hover {
+  background-color: #3b82f6;
+  box-shadow: -3px 3px 1px 1px #3b83f6c3;
+  border-color: transparent;
+}
+
+.form button:active {
+  background-color: #3b83f6c3 ;
+  box-shadow: 0px 0px 0px 0px #3b83f6c3;
+  transform: translate(-0.2rem, 0.1rem);
+  border-color: transparent;
+}
