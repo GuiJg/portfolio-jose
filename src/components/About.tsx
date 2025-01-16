@@ -2,11 +2,11 @@ import profile from "../assets/profile.png";
 
 export default function About() {
     return (
-        <div className="flex justify-center items-start gap-16 h-screen" id="sobre">
-            <div className="w-3/12">
+        <div className="flex flex-wrap justify-center items-start gap-16" id="sobre">
+            <div className="w-64">
                 <img src={profile} alt="" className="w-full h-full" />
             </div>
-            <div className="flex flex-col items-start gap-6 w-6/12 pt-8 pb-8">
+            <div className="flex flex-col items-start gap-6 pt-8 pb-8" style={{ width: "50rem" }}>
                 <h2 className="text-5xl font-bold">
                     Desenvolvendo <strong className="bg-gradient-to-r from-cyan-700 to-blue-500">solução de software</strong>, com o foco na qualidade e na experiencia do usuario.
                 </h2>

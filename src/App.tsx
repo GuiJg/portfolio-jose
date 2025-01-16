@@ -12,7 +12,7 @@ export default function App() {
       top: 0,
       behavior: "smooth"
     });
-  }
+  };
 
   return (
     <>
@@ -20,7 +20,7 @@ export default function App() {
         <Link to={'/'} className="flex">
           <h1 className="text-3xl font-bold uppercase">José Guilherme</h1>
         </Link>
-        <nav className="flex justify-center align-center gap-8 ">
+        <nav className="hidden sm:flex justify-center align-center gap-8 ">
           <a href='#' className="flex justify-center items-center text-gray-300 font-normal hover:underline">Inicio</a>
           <a href='#sobre' className="flex justify-center items-center text-gray-300 font-normal hover:underline">Sobre</a>
           <a href='#projetos' className="flex justify-center items-center text-gray-300 font-normal hover:underline">Projetos</a>
@@ -42,10 +42,10 @@ export default function App() {
       </Routes>
 
       <button
-        className="scroll-top"
+        className="bg-white rounded-full p-2 fixed bottom-8 right-8 hover:bg-slate-300"
         onClick={scrollToTop}
       >
-        <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><g transform="rotate(-90 12 12) translate(24 0) scale(-1 1)"><g fill="none" stroke="black" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2"><path strokeDasharray="14" strokeDashoffset="14" d="M19 12H5.5"><animate fill="freeze" attributeName="stroke-dashoffset" dur="0.3s" values="14;0" /></path><path strokeDasharray="8" strokeDashoffset="8" d="M5 12L10 17M5 12L10 7"><animate fill="freeze" attributeName="stroke-dashoffset" begin="0.3s" dur="0.2s" values="8;0" /></path></g></g></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" width="1.5em" height="1.5em" viewBox="0 0 24 24"><g transform="rotate(-90 12 12) translate(24 0) scale(-1 1)"><g fill="none" stroke="black" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2"><path strokeDasharray="14" strokeDashoffset="14" d="M19 12H5.5"><animate fill="freeze" attributeName="stroke-dashoffset" dur="0.3s" values="14;0" /></path><path strokeDasharray="8" strokeDashoffset="8" d="M5 12L10 17M5 12L10 7"><animate fill="freeze" attributeName="stroke-dashoffset" begin="0.3s" dur="0.2s" values="8;0" /></path></g></g></svg>
       </button>
 
       <footer className="flex justify-center items-center gap-6 p-6 bg-black">
