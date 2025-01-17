@@ -52,7 +52,14 @@ body {
   filter: brightness(0.5);
 }
 
-.card-overlay {
-  position: absolute;
-  transition: all 0.3s ease-in-out;
+@media screen and (max-width: 640px) {
+  .card-project .card-img{ 
+    width: 95% !important;
+  }
+}
+
+@media screen and (max-width: 860px) {
+  .form-container {
+    width: 100% !important;
+  }
 }

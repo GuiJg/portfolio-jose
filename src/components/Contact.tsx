@@ -4,7 +4,7 @@ export default function Contact() {
     return (
         <div id='contato' className="flex flex-col justify-center items-center py-8 pb-32">
             <h1 className="text-5xl font-bold">Contato</h1>
-            <div style={{ width: "50rem" }}>
+            <div className='p-4 form-container' style={{ width: "50rem" }}>
                 <form action="https://getform.io/f/akkkrnqa" method="POST" className="flex flex-col justify-center items-start gap-2 w-full">
                     <label htmlFor="name">Nome</label>
                     <input type="text" name="name" id="name" placeholder="Digite seu nome e da sua empresa" required autoComplete="name" className='p-3 bg-transparent border border-gray-700 text-white focus:bg-slate-200 focus:text-black w-full transition-all' />

@@ -16,7 +16,7 @@ export default function App() {
 
   return (
     <>
-      <header className="flex justify-between align-center p-6 fixed w-full bg-black z-50">
+      <header className="flex justify-center sm:justify-between align-center p-6 fixed w-full bg-black z-50">
         <Link to={'/'} className="flex">
           <h1 className="text-3xl font-bold uppercase">José Guilherme</h1>
         </Link>
@@ -28,7 +28,7 @@ export default function App() {
           <a
             href="./assets/Currículo - José Guilherme.pdf"
             download="Currículo - José Guilherme.pdf"
-            rel="noreferrer" className="flex justify-center items-center text-gray-300 font-normal hover:underline"
+            rel="noreferrer" className="flex justify-center items-center px-2 bg-white rounded text-black font-normal hover:bg-slate-300 active:bg-slate-400 transition-all"
           >
             Download CV
           </a>
@@ -48,7 +48,7 @@ export default function App() {
         <svg xmlns="http://www.w3.org/2000/svg" width="1.5em" height="1.5em" viewBox="0 0 24 24"><g transform="rotate(-90 12 12) translate(24 0) scale(-1 1)"><g fill="none" stroke="black" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2"><path strokeDasharray="14" strokeDashoffset="14" d="M19 12H5.5"><animate fill="freeze" attributeName="stroke-dashoffset" dur="0.3s" values="14;0" /></path><path strokeDasharray="8" strokeDashoffset="8" d="M5 12L10 17M5 12L10 7"><animate fill="freeze" attributeName="stroke-dashoffset" begin="0.3s" dur="0.2s" values="8;0" /></path></g></g></svg>
       </button>
 
-      <footer className="flex justify-center items-center gap-6 p-6 bg-black">
+      <footer className="flex flex-wrap justify-center items-center gap-6 p-6 bg-black">
         <p className="text-center text-gray-300">Desenvolvido por <strong>José Guilherme</strong></p>
         <div className="flex justify-center items-center gap-4">
           <a href="https://www.linkedin.com/in/j-gui/" target="_blank" rel="noreferrer">

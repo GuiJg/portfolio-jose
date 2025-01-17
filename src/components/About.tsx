@@ -6,7 +6,7 @@ export default function About() {
             <div className="w-64">
                 <img src={profile} alt="" className="w-full h-full" />
             </div>
-            <div className="flex flex-col items-start gap-6 pt-8 pb-8" style={{ width: "50rem" }}>
+            <div className="flex flex-col items-start gap-6 p-8" style={{ width: "50rem" }}>
                 <h2 className="text-5xl font-bold">
                     Desenvolvendo <strong className="bg-gradient-to-r from-cyan-700 to-blue-500">solução de software</strong>, com o foco na qualidade e na experiencia do usuario.
                 </h2>
@@ -35,7 +35,7 @@ export default function About() {
                 <a
                     href="./assets/Currículo - José Guilherme.pdf"
                     download="Currículo - José Guilherme.pdf"
-                    rel="noreferrer" className="text-gray-300 font-normal hover:underline"
+                    rel="noreferrer" className="flex justify-center items-center p-1 px-2 bg-white rounded text-black font-normal hover:bg-slate-300 active:bg-slate-400 transition-all"
                 >
                     Download CV
                 </a>

@@ -12,7 +12,7 @@ export default function Projects() {
         <div className="flex flex-col justify-center items-center gap-12 pt-32 pb-32" id="projetos">
             <div className="flex flex-col justify-center items-center gap-8">
                 <h1 className="text-5xl font-bold">Projetos</h1>
-                <p className="w-1/2 text-center">
+                <p className="w-full sm:w-1/2 text-center">
                     Devido à confidencialidade, meus projetos mais recentes não são exibidos publicamente. Sinta-se à vontade para entrar em contato pelo e-mail <a href="mailto:josepessoa.dev@gmail.com" target="_blank" rel="noopener noreferrer" className="font-bold text-blue-500 hover:underline">josepessoa.dev@gmail.com</a> para discutir meus projetos recentes com mais detalhes.
                 </p>
             </div>
