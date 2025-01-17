@@ -2,6 +2,8 @@
 @import "tailwindcss/base";
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
+@import 'primeicons/primeicons.css';
+
 
 * {
   margin: 0;
@@ -32,4 +34,25 @@ body {
 
 ::-webkit-scrollbar-thumb:hover {
   background: #555;
+}
+
+.card-content {
+  transition: all 0.3s ease-in-out;
+}
+
+.card-project:hover .card-content {
+  opacity: 1;
+}
+
+.card-img {
+  transition: all 0.3s ease-in-out;
+}
+
+.card-project:hover .card-img {
+  filter: brightness(0.5);
+}
+
+.card-overlay {
+  position: absolute;
+  transition: all 0.3s ease-in-out;
 }
