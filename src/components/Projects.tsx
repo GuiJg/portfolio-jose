@@ -33,7 +33,7 @@ export default function Projects() {
       </div>
       <div className="flex flex-wrap justify-center items-center gap-6 py-10">
         <a
-          href="https://vjradvogados.vercel.app/"
+          href="https://santosmonteiro.adv.br"
           target="_blank"
           rel="noopener noreferrer"
           className="flex flex-col justify-center items-center gap-4 relative card-project"
